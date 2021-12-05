@@ -17,7 +17,7 @@ Scripts are not fully tested (e.g. it can fail on some ctree elements), but you 
 
 ### Usage:
 1. Load **HRAST.py** into IDA
-1. Write your patterns in **read_patterns.py**. You should define `PATTERNS` list with tuples (`template_code`, `replacement_fcn`, `is_chain`) as elements
+1. Write your patterns in **ready_patterns.py**. You should define `PATTERNS` list with tuples (`template_code`, `replacement_fcn`, `is_chain`) as elements
 1. Call `reLOAD()` function from IDAPython
 1. Reload decompiler window
 1. You can call `unLOAD()` function to disable modifications
